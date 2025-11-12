@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Environment and config
+.env
+.env.*
+*.log
+
+# Package lock and yarn lock (auto-generated)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cache and temporary files
+.tmp/
+.cache/
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Compiled or generated code
+*.min.js
+*.min.css
+*.tsbuildinfo
+
+# Public assets (if any)
+public/
+static/
+
+# Documentation output
+docs/
+*.md
+
+# Misc
+.DS_Store
+Thumbs.db
